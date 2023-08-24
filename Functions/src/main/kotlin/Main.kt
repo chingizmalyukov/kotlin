@@ -1,5 +1,5 @@
 fun main() {
-    val codedString : String = "F2p)v\"y233{0->c}ttelciFc"
+    val codedString  = "F2p)v\"y233{0->c}ttelciFc"
 
     decodingFirstPart(codedString.substring(0, codedString.count()/2)) {textString -> println(textString)}
     decodingSecondPart(codedString.substring(codedString.count()/2, codedString.count())) {textString -> println(textString) }
